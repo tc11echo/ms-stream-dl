@@ -10,8 +10,8 @@ count=0
 with open(r"video_links.txt", "w", encoding="utf-8") as fpw:
     for i in links:
         fpw.write("https://web.microsoftstream.com"+i["href"]+"\n")
-        print(str(count+1)+". https://web.microsoftstream.com"+i["href"])
         count+=1
+        print(str(count)+". https://web.microsoftstream.com"+i["href"])
 print(f"done, in total {count} video(s)")
 print("================================")
 print("start downloading")
