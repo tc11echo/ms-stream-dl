@@ -1,3 +1,6 @@
 microsoftstream.com_cookies.txt
-video_links.txt
+download_links.txt
+source.txt
+authentication.py
 /video
+/__pycache__/

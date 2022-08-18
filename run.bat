@@ -1,1 +1,1 @@
-powershell -Command "& {yt-dlp -f 'bestvideo+bestaudio' --merge-output-format mp4 --cookies 'microsoftstream.com_cookies.txt' --batch-file 'video_links.txt'}"
+powershell -Command "& {yt-dlp -f 'bestvideo+bestaudio' --merge-output-format mp4 --cookies 'microsoftstream.com_cookies.txt' --batch-file 'download_links.txt'}"
